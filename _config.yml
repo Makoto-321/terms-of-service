@@ -1,0 +1,10 @@
+# Jekyll の最低限設定
+title: 利用規約
+
+# カスタム CSS を読み込む設定
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      css: "/assets/css/custom.css"
