@@ -1,0 +1,11 @@
+/* ol の番号を強制表示する */
+ol {
+  list-style-type: decimal !important;
+  counter-reset: item; /* 連番をリセット */
+  padding-left: 1.5em; /* インデント調整 */
+}
+
+ol li {
+  display: list-item !important;
+  margin-bottom: 0.5em; /* 項目間の余白 */
+}
